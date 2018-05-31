@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--timit_folder", help='''Path of the TIMIT dataset. Contains the root folders SPHERE, TIMIT, CONVERT.
                     Alternatively it can be set as an environment variable named TIMIT_FOLDER.
                     ''')
-parser.add_argument("--set", help="TRAIN, TEST. if not set, file selected ar random")
+parser.add_argument("--set", help="TRAIN, TEST. if not set, selected at random (same for following params)")
 parser.add_argument("--dr", help="Dialect region. [1-8]")
 parser.add_argument("--spk", help="Speaker. ex: FBLV0")
 parser.add_argument("--sn", help="Sentence. ex: SA1")

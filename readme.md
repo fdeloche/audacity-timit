@@ -4,7 +4,7 @@ Audacity script for TIMIT files
 Description
 -----------
 
-Opens a wave file of the TIMIT database in Audacity and adds the phonetic data from the TIMIT segmentation in Label Tracks.
+Opens a wave file from the TIMIT database in Audacity and adds the phonetic data in Label Tracks thanks to the segmentation provided by TIMIT.
 
 
 Scripting
